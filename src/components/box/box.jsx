@@ -4,12 +4,8 @@ function Box() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const teste = () => {
-    alert("Teste");
-  };
-
   const hidden = () => {
-    setEmail("");
+    setEmail();
     setPassword("");
   };
 
